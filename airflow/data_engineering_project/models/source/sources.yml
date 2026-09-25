@@ -1,0 +1,11 @@
+sources:
+  - name: retail_store_databricks
+    database: walmart
+    schema: bronze  
+    tables:
+      - name: customers
+      - name: orders
+      - name: employees
+      - name: order_items
+      - name: products
+      - name: stores
